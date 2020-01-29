@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-    api:
+    app:
         build: ./
         command: streamlit run app/main.py --server.port 8501
         volumes:
